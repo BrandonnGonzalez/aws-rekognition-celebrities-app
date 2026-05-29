@@ -1,0 +1,14 @@
+{
+  "name": "aws-rekognition-celebrities-app",
+  "version": "1.0.0",
+  "description": "S3-triggered Lambda that identifies celebrities with Amazon Rekognition",
+  "main": "src/handler.js",
+  "scripts": {
+    "build": "bash scripts/build-zip.sh",
+    "test:local": "node scripts/test-local.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "private": true
+}

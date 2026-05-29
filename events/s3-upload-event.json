@@ -1,0 +1,21 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.1",
+      "eventSource": "aws:s3",
+      "awsRegion": "us-east-1",
+      "eventTime": "2026-05-28T12:00:00.000Z",
+      "eventName": "ObjectCreated:Put",
+      "s3": {
+        "bucket": {
+          "name": "aws-s3-rekognition-celebrities-app-bucket",
+          "arn": "arn:aws:s3:::aws-s3-rekognition-celebrities-app-bucket"
+        },
+        "object": {
+          "key": "lebronJames.png",
+          "size": 1024
+        }
+      }
+    }
+  ]
+}
